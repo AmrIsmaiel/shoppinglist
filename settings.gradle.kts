@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "shoppinglist"
 include(":app")
+include(":cart")
