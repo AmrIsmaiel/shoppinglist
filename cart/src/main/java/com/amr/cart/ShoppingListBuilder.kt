@@ -7,7 +7,7 @@ import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 
 object ShoppingListBuilder {
-    fun getIntent(context: Context): Intent {
+    private fun getIntent(context: Context): Intent {
         return Intent(context, ShoppingListActivity::class.java)
     }
 
