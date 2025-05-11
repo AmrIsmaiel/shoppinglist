@@ -5,7 +5,7 @@ import kotlinx.coroutines.delay
 import javax.inject.Inject
 import kotlin.random.Random
 
-class MockShoppingListApi @Inject constructor() : ShoppingListApiService {
+class MockShoppingListRemoteDataSource @Inject constructor() : ShoppingListApiService {
     private val items = mutableListOf<ShoppingItemDto>()
     private val networkDelayMs = 500L
     private val failureRate = 0.1f
