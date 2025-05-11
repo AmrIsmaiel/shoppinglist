@@ -1,6 +1,7 @@
 package com.amr.cart.data.local
 
 import androidx.room.Database
+import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 
 @Database(
@@ -9,6 +10,6 @@ import androidx.room.TypeConverters
     exportSchema = false
 )
 @TypeConverters(DateConverter::class)
-abstract class ShoppingListDatabase {
+abstract class ShoppingListDatabase : RoomDatabase() {
     abstract fun shoppingItemDao(): ShoppingItemDao
 }
