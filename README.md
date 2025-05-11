@@ -73,4 +73,4 @@ The module includes:
 - **UI tests**: Testing Compose UI components
 - **Integration tests**: End-
 
-## PS: Some test cases in view model test file. still under investigations
+## PS: Some test cases in view model test are failing and still under investigations
